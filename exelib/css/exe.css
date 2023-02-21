@@ -1,0 +1,362 @@
+/*  ===========================================================================
+     eXe
+     Copyright 2004-2005, University of Auckland
+     Copyright 2004-2007 eXe Project, http://eXeLearning.org/
+
+     These style elements are only used in the editing pane of eXe. They do not 
+     apply when content is exported. Brent.  
+   =========================================================================== */
+  
+html {
+  padding: 10px;
+}
+ 
+textarea { font-family: arial, verdana, helvetica, sans-serif;
+	   font-size: 13px;
+       background: transparent;
+}
+
+.classnote{
+border: 2px solid #E6E6E6;
+-webkit-border-bottom-left-radius: 20px;
+-moz-border-radius-bottomleft: 20px;
+border-bottom-left-radius: 20px;
+background: #FFFFDD;
+padding-left:10px;
+padding-right:10px;
+padding-top:5px;
+margin-top:5px;
+margin-bottom:20px;
+width:35%;
+margin-left:62%;
+
+}
+.notetitle{
+font: bold 14px verdana;
+}
+.notetitleex{
+font: bold 14px verdana;
+border-bottom: 3px solid #cccccc;
+cursor:pointer;
+padding-left:5px;
+padding-bottom:5px;
+}
+.notebtn{
+border: 1px solid #cccccc;
+cursor:pointer;
+margin-top:5px;
+width:100%;
+}
+.notearea{
+display:none;
+}
+.classnote .idevice-edition-buttons
+{
+margin-bottom:0px;
+}
+/* styles for iDevice Editor */
+
+#editorWorkspace {
+	margin-left: 240px;
+}
+
+#editorButtons {
+	 float: left;
+         position: fixed;
+}
+
+#editorButtons input.button
+{
+border: 3px double #999999;
+border-top-color: #CCCCCC;
+border-left-color: #CCCCCC;
+width: 100px;
+padding: 0.25em;
+margin: 4px;
+background-color: #FFFFFF;
+background-image: url(../style/standardwhite/_standardwhite_title_bg.gif);
+background-repeat: repeat-x;
+color: #333333;
+font-size: 75%;
+font-weight: bold;
+font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+#editorButtons input.button[disabled] {
+	background-color: #dddddd;
+	background-image: none;
+}
+
+/* styles for Style Manager Editor */
+#styleManagerWorkspace {
+	margin-left: 50px;
+}
+
+#styleManagerButtons {
+	 float: left;
+     position: fixed;
+}
+
+#styleManagerButtons input.button
+{
+	border: 3px double #999999;
+	border-top-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	width: 100px;
+	padding: 0.25em;
+	margin: 2px;
+	background-color: #FFFFFF;
+	background-image: url(../style/standardwhite/_standardwhite_title_bg.gif);
+	background-repeat: repeat-x;
+	color: #333333;
+	font-size: 75%;
+	font-weight: bold;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+#styleManagerButtons input.button[disabled] {
+	background-color: #dddddd;
+	background-image: none;
+}
+
+.flash {
+ border: 1px dashed #6699cc;
+ background-image: url(../images/flash_placeholder.gif); 
+ background-position: 50% 50%;
+ background-repeat: no-repeat;
+}
+
+p.editModeHeading {
+ font-weight: bold;
+ color: red;
+ border: 1px solid red;
+}
+
+.maths {
+border: 1px solid #CCC;
+padding: 2px;
+color: #000000;
+}
+
+.maths a { color: #000000; }
+ 
+/* exe_lightbox.css */
+/* The New eXeLearning */
+.exeImageGallery{margin:1em 0 0 15px;padding:0;overflow:auto}
+.exeImageGallery li{margin:0;padding:5px 15px 25px 15px;display:block;float:left;list-style:none}
+.exeImageGallery a{display:inline-block;width:128px;height:128px;background:#FFF;box-shadow:0 8px 6px -6px rgba(0,0,0,0.6);transition: all 0.5s cubic-bezier(.25,.8,.25,1)}
+.exeImageGallery a:hover{box-shadow:0 10px 7px -6px rgba(0,0,0,0.8)}
+.exeImageGallery a img{border:none}
+.exeImageGallery .tit{display:none}
+#activeIdevice .exeImageGallery a{display:inline;width:auto;height:auto;box-shadow:none!important}
+#activeIdevice .exeImageGallery{margin:0}
+#activeIdevice .exeImageGallery-thumbnail{border:none;width:128px;height:128px}
+#activeIdevice .exeImageGallery img.submit{margin-right:4px}
+#activeIdevice .exeImageGallery span input{width:95%;margin:2px 0 4px 0}
+/* prettyPhoto - Lightbox clone for jQuery - Author: Stephane Caron (http://www.no-margin-for-errors.com) - Version: 3.1.6 */
+div.pp_default .pp_top,div.pp_default .pp_top .pp_middle,div.pp_default .pp_top .pp_left,div.pp_default .pp_top .pp_right,div.pp_default .pp_bottom,div.pp_default .pp_bottom .pp_left,div.pp_default .pp_bottom .pp_middle,div.pp_default .pp_bottom .pp_right{height:13px}
+div.pp_default .pp_top .pp_left{background:url(../scripts/exe_lightbox/exe_lightbox_sprite.png) -78px -93px no-repeat}
+div.pp_default .pp_top .pp_middle{background:url(../scripts/exe_lightbox/exe_lightbox_sprite_x.png) top left repeat-x}
+div.pp_default .pp_top .pp_right{background:url(../scripts/exe_lightbox/exe_lightbox_sprite.png) -112px -93px no-repeat}
+div.pp_default .pp_content .ppt{color:#f8f8f8}
+div.pp_default .pp_content_container .pp_left{background:url(../scripts/exe_lightbox/exe_lightbox_sprite_y.png) -7px 0 repeat-y;padding-left:13px}
+div.pp_default .pp_content_container .pp_right{background:url(../scripts/exe_lightbox/exe_lightbox_sprite_y.png) top right repeat-y;padding-right:13px}
+div.pp_default .pp_next:hover{background:url(../scripts/exe_lightbox/exe_lightbox_sprite_next.png) center right no-repeat;cursor:pointer}
+div.pp_default .pp_previous:hover{background:url(../scripts/exe_lightbox/exe_lightbox_sprite_prev.png) center left no-repeat;cursor:pointer}
+div.pp_default .pp_expand{background:url(../scripts/exe_lightbox/exe_lightbox_sprite.png) 0 -29px no-repeat;cursor:pointer;width:28px;height:28px}
+div.pp_default .pp_expand:hover{background:url(../scripts/exe_lightbox/exe_lightbox_sprite.png) 0 -56px no-repeat;cursor:pointer}
+div.pp_default .pp_contract{background:url(../scripts/exe_lightbox/exe_lightbox_sprite.png) 0 -84px no-repeat;cursor:pointer;width:28px;height:28px}
+div.pp_default .pp_contract:hover{background:url(../scripts/exe_lightbox/exe_lightbox_sprite.png) 0 -113px no-repeat;cursor:pointer}
+div.pp_default .pp_close{width:30px;height:30px;background:url(../scripts/exe_lightbox/exe_lightbox_sprite.png) 2px 1px no-repeat;cursor:pointer}
+div.pp_default .pp_gallery ul li a{background:url(../scripts/exe_lightbox/exe_lightbox_default_thumb.png) center center #f8f8f8;border:1px solid #aaa}
+div.pp_default .pp_social{margin-top:7px}
+div.pp_default .pp_gallery a.pp_arrow_previous,div.pp_default .pp_gallery a.pp_arrow_next{position:static;left:auto}
+div.pp_default .pp_nav .pp_play,div.pp_default .pp_nav .pp_pause{background:url(../scripts/exe_lightbox/exe_lightbox_sprite.png) -51px 1px no-repeat;height:30px;width:30px}
+div.pp_default .pp_nav .pp_pause{background-position:-51px -29px}
+div.pp_default a.pp_arrow_previous,div.pp_default a.pp_arrow_next{background:url(../scripts/exe_lightbox/exe_lightbox_sprite.png) -31px -3px no-repeat;height:20px;width:20px;margin:4px 0 0}
+div.pp_default a.pp_arrow_next{left:52px;background-position:-82px -3px}
+div.pp_default .pp_content_container .pp_details{margin-top:5px}
+div.pp_default .pp_nav{clear:none;height:30px;width:110px;position:relative}
+div.pp_default .pp_nav .currentTextHolder{font-family:Georgia;font-style:italic;color:#999;font-size:11px;left:75px;line-height:25px;position:absolute;top:2px;margin:0;padding:0 0 0 10px}
+div.pp_default .pp_close:hover,div.pp_default .pp_nav .pp_play:hover,div.pp_default .pp_nav .pp_pause:hover,div.pp_default .pp_arrow_next:hover,div.pp_default .pp_arrow_previous:hover{opacity:0.7}
+div.pp_default .pp_description{font-size:11px;font-weight:700;line-height:14px;margin:5px 50px 5px 0}
+div.pp_default .pp_bottom .pp_left{background:url(../scripts/exe_lightbox/exe_lightbox_sprite.png) -78px -127px no-repeat}
+div.pp_default .pp_bottom .pp_middle{background:url(../scripts/exe_lightbox/exe_lightbox_sprite_x.png) bottom left repeat-x}
+div.pp_default .pp_bottom .pp_right{background:url(../scripts/exe_lightbox/exe_lightbox_sprite.png) -112px -127px no-repeat}
+div.pp_default .pp_loaderIcon{background:url(../scripts/exe_lightbox/exe_lightbox_loader.gif) center center no-repeat}
+div.pp_pic_holder a:focus{outline:none}
+div.pp_overlay{background:#000;display:none;left:0;position:absolute;top:0;width:100%;z-index:9500}
+div.pp_pic_holder{display:none;position:absolute;width:100px;z-index:10000}
+.pp_content{height:40px;min-width:40px}
+* html .pp_content{width:40px}
+.pp_content_container{position:relative;text-align:left;width:100%}
+.pp_content_container .pp_left{padding-left:20px}
+.pp_content_container .pp_right{padding-right:20px}
+.pp_content_container .pp_details{float:left;margin:10px 0 2px}
+.pp_description{display:none;margin:0}
+.pp_nav{clear:right;float:left;margin:3px 10px 0 0}
+.pp_nav p{float:left;white-space:nowrap;margin:2px 4px}
+.pp_nav .pp_play,.pp_nav .pp_pause{float:left;margin-right:4px;text-indent:-10000px}
+a.pp_arrow_previous,a.pp_arrow_next{display:block;float:left;height:15px;margin-top:3px;overflow:hidden;text-indent:-10000px;width:14px}
+.pp_hoverContainer{position:absolute;top:0;width:100%;z-index:2000}
+.pp_gallery{display:none;left:50%;margin-top:-50px;position:absolute;z-index:10000}
+.pp_gallery div{float:left;overflow:hidden;position:relative}
+.pp_gallery ul{float:left;height:35px;position:relative;white-space:nowrap;margin:0 0 0 5px;padding:0}
+.pp_gallery ul a{border:1px rgba(0,0,0,0.5) solid;display:block;float:left;height:33px;overflow:hidden}
+.pp_gallery ul a img{border:0}
+.pp_gallery li{display:block;float:left;margin:0 5px 0 0;padding:0}
+.pp_gallery li.default a{background:url(../scripts/exe_lightbox/exe_lightbox_default_thumb.png) 0 0 no-repeat;display:block;height:33px;width:50px}
+.pp_gallery .pp_arrow_previous,.pp_gallery .pp_arrow_next{margin-top:7px!important}
+a.pp_next{display:block;float:right;height:100%;text-indent:-10000px;width:49%}
+a.pp_previous{display:block;float:left;height:100%;text-indent:-10000px;width:49%}
+a.pp_expand,a.pp_contract{cursor:pointer;display:none;height:20px;position:absolute;left:25px;text-indent:-10000px;top:10px;width:20px;z-index:20000}
+a.pp_close{position:absolute;right:0;top:0;display:block;line-height:22px;text-indent:-10000px}
+.pp_loaderIcon{display:block;height:24px;left:50%;position:absolute;top:50%;width:24px;margin:-12px 0 0 -12px}
+#pp_full_res{line-height:1!important}
+#pp_full_res .pp_inline{text-align:left}
+#pp_full_res .pp_inline p{margin:0 0 15px}
+div.ppt{color:#fff;display:none;font-size:17px;z-index:9999;margin:0 0 5px 15px}
+div.pp_default .pp_content{background-color:#fff}
+div.pp_default #pp_full_res .pp_inline{color:#000}
+div.pp_default .pp_gallery ul li a:hover,div.pp_default .pp_gallery ul li.selected a,.pp_gallery ul a:hover,.pp_gallery li.selected a{border-color:#fff}
+div.pp_default .pp_details{position:relative}
+.pp_top,.pp_bottom{height:20px;position:relative}
+* html .pp_top,* html .pp_bottom{padding:0 20px}
+.pp_top .pp_left,.pp_bottom .pp_left{height:20px;left:0;position:absolute;width:20px}
+.pp_top .pp_middle,.pp_bottom .pp_middle{height:20px;left:20px;position:absolute;right:20px}
+* html .pp_top .pp_middle,* html .pp_bottom .pp_middle{left:0;position:static}
+.pp_top .pp_right,.pp_bottom .pp_right{height:20px;left:auto;position:absolute;right:0;top:0;width:20px}
+.pp_fade,.pp_gallery li.default a img{display:none}
+/* The New eXeLearning */
+div.pp_overlay{background:#fff}
+div.pp_default .pp_nav .currentTextHolder,
+div.pp_default .pp_description{font-size:1em}
+div.ppt{display:none!important}
+#pp_full_res .pp_inline{line-height:1.5em;padding:0 10px}
+#pp_full_res .pp_inline p{margin:0;padding:1em 0}
+#pp_full_res .pp_title{color:#000;margin:0;padding:1em 0 .25em 0}
+/* Multimedia galleries */
+div.with-audio .pp_gallery ul li a{border:1px solid #fff}
+div.with-audio .pp_gallery ul li a:hover,div.with-audio .pp_gallery ul li.selected a,.pp_gallery ul a:hover,div.with-audio .pp_gallery li.selected a{border-color:#aaa}
+.exe-media-audio-box{text-align:center;height:50px;padding:40px 0}
+.exe-media-video-box{text-align:center;min-width:480px;height:385px}
+.exe-media-download{font-weight:normal;float:right}
+
+/* In the edition page, hidden elements are shown */
+body .exe-hidden{display:inherit;filter:alpha(opacity=40);opacity:0.4;margin:0.5em;padding-left:25px;background:url(../images/exe_hidden.png) no-repeat 0 0}
+body .exe-hidden-accessible{position:static;overflow:visible;clip:auto;height:auto;filter:alpha(opacity=40);opacity:0.4;margin:0.5em;padding-left:25px;background:url(../images/exe_hidden_accessible.png) no-repeat 0 0}
+/* See $exeTinyMCEToggler.toggle in tinymce_4_settings.js */
+.hidden-editor .mce-menubar,
+.hidden-editor .mce-toolbar,
+.hidden-editor .mce-statusbar,
+.hidden-editor .mce-toolbar-grp,
+.hidden-editor .mce-branding-powered-by{display:none}
+/* TinyMCE Float Panel (to review - see #132) */
+.mce-floatpanel{max-height:100%;overflow:auto}
+.mce-fullscreen .idevice-edition-buttons,.mce-fullscreen .toggle-idevice{display:none}
+/* Save iDevice with fullscreen */
+.mce-fullscreen #activeIdevice .exe-editButtons{z-index:10000;position:absolute;left:8px;bottom:37px;margin:0}
+.mce-fullscreen #activeIdevice .exe-editButtons select,.mce-fullscreen #activeIdevice .exe-editButtons img,.mce-fullscreen #activeIdevice .exe-editButtons a{display:none}
+.mce-fullscreen #activeIdevice .exe-editButtons a img{display:inline}
+.mce-fullscreen #activeIdevice .exe-editButtons a:nth-of-type(0),
+.mce-fullscreen #activeIdevice .exe-editButtons a:nth-of-type(1){display:inline}
+
+/* iDevice edition */
+.exe-authoring-page #activeIdevice{padding-top:1.5em;border:0;box-shadow:none}
+.exe-authoring-page .iDevice_wrapper{position:relative}
+.exe-authoring-page .idevice-edition-buttons{margin:0;height:16px;position:absolute;bottom:0;left:0;line-height:16px;opacity:0;transition:opacity .3s linear}
+.exe-authoring-page .emphasis0-empty + .idevice-edition-buttons{opacity:.3} /* See exe.js */ 
+.exe-authoring-page .iDevice_wrapper:hover .idevice-edition-buttons{opacity:1}
+.exe-authoring-page .em_iDevice .idevice-edition-buttons{left:10px;bottom:10px}
+.exe-authoring-page .idevice-edition-buttons img{background:#FFF;border-radius:2px;box-shadow:rgba(0, 0, 0, 0.35) 1px 1px 4px;padding:0;margin:0 4px 0 0}
+#activeIdevice .exe-editButtons{margin:10px 0 60px 0;height:16px}
+#activeIdevice .exe-editButtons img{margin:0 4px 0 0}
+#activeIdevice .exe-editButtons select{font-size:11px;font-family:tahoma,arial,verdana,sans-serif;vertical-align:top;margin:1px 0 0 5px}
+
+/* JavaScript iDevices */
+#activeIdevice textarea.jsContentEditor{display:none}
+/* iDevice title and icon selection styles */
+.js-show-icon-panel-button{margin:0 5px;font-size:.9em}
+.js-idevide-icon-preview{vertical-align:middle;max-width:60px;height:auto;max-height:60px}
+.js-delete-icon{margin:0 5px}
+.js-icon-panel-container{display:none;z-index:99}
+/* Forms */
+#activeIdevice .exe-idevice-description{font-size:.95em}
+#activeIdevice .exe-feedback-fieldset p:last-child{margin-top:30px}
+#activeIdevice .exe-textarea-field{margin:20px 0}
+#activeIdevice .exe-text-field label,
+#activeIdevice .exe-select-field label,
+#activeIdevice .exe-textarea-field label{font-weight:bold}
+#activeIdevice .exe-text-field-inline label,
+#activeIdevice .exe-select-field-inline label{padding-right:5px}
+#activeIdevice .exe-text-field input,
+#activeIdevice .exe-select-field select,
+#activeIdevice .exe-select-field textarea,
+#activeIdevice .exe-textarea-preview,
+#activeIdevice div.mce-tinymce{display:block;margin-top:5px}
+#activeIdevice .js-idevice-title-label{font-weight:bold;display:block;margin-bottom:5px}
+#activeIdevice .exe-checkbox-field input{margin-right:5px}
+#activeIdevice .exe-fieldset{padding:0 20px 5px 20px;border:1px solid #C0C0C0;margin:1.5em 0}
+#activeIdevice .exe-fieldset legend{font-weight:bold;padding:0 10px}
+#activeIdevice .exe-fieldset-closed legend a{text-decoration:underline;margin-right:10px;text-decoration:none}
+#activeIdevice .exe-fieldset-closed legend a:hover{text-decoration:underline}
+#activeIdevice .exe-fieldset-closed legend a:before{content:"↕";display:block;float:left;font-family:Verdana,sans-serif;color:#555;font-size:.85em;margin:1px .5em 0 10px}
+#activeIdevice .exe-fieldset-closed{border-width:1px 0 0 0}
+#activeIdevice .exe-fieldset-closed legend{padding:0;margin-bottom:0}
+#activeIdevice .exe-fieldset-closed div{display:none}
+#activeIdevice .exe-field-instructions{display:block;font-size:.9em;margin-top:.4em}
+
+/* Tabs */
+#activeIdevice .exe-form-tabs{margin:1em 0 1.5em 0;padding:0;list-style:none}
+#activeIdevice .exe-form-tabs li{margin:0;padding:0;list-style:none;list-style-image:none;display:inline}
+#activeIdevice .exe-form-tabs li:first-child a{border-top-left-radius:4px;border-bottom-left-radius:4px}
+#activeIdevice .exe-form-tabs li:last-child a{border-top-right-radius:4px;border-bottom-right-radius:4px}
+#activeIdevice .exe-form-tabs a{display:inline-block;padding:.5em 1em;border:1px solid #CCC;background:#F9F9F9;color:#666}
+#activeIdevice .exe-form-tabs li:not(:last-child) a{border-right:none}
+#activeIdevice .exe-form-tabs .exe-form-active-tab{color:#000;background:#FFF;font-weight:bold}
+
+/* Dismissable messages (to be used with exe-block-info) */
+.exe-idevice-info .exe-block-dismissible,
+.exe-idevice-warning .exe-block-dismissible{position:relative;padding-right:30px}
+.exe-block-dismissible a{text-decoration:underline}
+.exe-block-dismissible a:hover{text-decoration:none}
+.exe-block-dismissible .exe-block-close{position:absolute;right:13px;top:7px;font-size:18px;font-family:Verdana,sans-serif;color:#86A9BB;text-shadow:0 1px 0 #fff;font-weight:bold;text-decoration:none}
+.exe-block-dismissible .exe-block-close:hover,.exe-block-dismissible .exe-block-close:focus{color:#063853;text-decoration:none}
+.exe-idevice-warning .exe-block-dismissible .exe-block-close{color:#BBAC8C}
+.exe-idevice-warning .exe-block-dismissible .exe-block-close:hover,.exe-idevice-warning .exe-block-dismissible .exe-block-close:focus{color:#796034}
+
+/* Empty page instructions */
+#emptyPageInstructions{margin-top:2em;position:relative;padding-right:30px}
+#emptyPageInstructions a{position:absolute;right:13px;top:7px;font-size:18px;font-family:Verdana,sans-serif;color:#86A9BB;text-shadow:0 1px 0 #fff;font-weight:bold}
+#emptyPageInstructions a:hover,#emptyPageInstructions a:focus{color:#063853;text-decoration:none}
+
+/* Advanced user */
+.exe-advanced{display:none}
+body.exe-advanced{display:block}
+body.exe-advanced .exe-advanced{display:block}
+
+/* Click and type button - #642 */
+p#pageAddTextLinkWrapper{margin:20px 0;text-align:center}
+p#pageAddTextLinkWrapper a{
+height:16px;
+line-height:16px;
+color:#333;
+background:#E0E0E0;
+padding:3px 6px 4px 6px;
+font-family:tahoma, arial, verdana, sans-serif;
+font-size:11px;
+font-weight:normal;
+border:1px solid #9D9D9D;
+border-radius:2px;
+text-decoration:none!important;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+p#pageAddTextLinkWrapper a:hover,
+p#pageAddTextLinkWrapper a:focus{
+    background: rgb(251,251,251);
+    background: linear-gradient(180deg, rgba(251,251,251,1) 0%, rgba(233,233,233,1) 100%);
+}
+
+/* Provisional code to review */
+.exe-editor-toggler{margin:0 5px}
+body.with-color-picker{overflow:hidden}

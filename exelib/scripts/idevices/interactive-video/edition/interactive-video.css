@@ -1,0 +1,26 @@
+/**
+ * Interactive Video iDevice (edition CSS)
+ *
+ * Released under Attribution-ShareAlike 4.0 International License.
+ * Author: Ignacio Gros (http://gros.es/) for http://exelearning.net/
+ *
+ * License: http://creativecommons.org/licenses/by-sa/4.0/
+ */
+
+#interactiveVideoIdeviceForm{margin-top:2em}
+#interactiveVideoEditorOpener,#interactiveVideo-youtube,#interactiveVideo-mediateca{display:none}
+input[name=interactiveVideoType]{margin-left:2em;vertical-align:top}
+.interactiveVideoType{margin:1.5em 0}
+.interactiveVideoType input[type=text]{width:350px}
+.interactiveVideoType .info{display:block;margin-top:.7em;color:#666}
+.interactiveVideoType a{color:#888}
+.interactiveVideoType a:hover,.interactiveVideoType a:focus{color:#666}
+
+#interactiveVideoIdeviceFormTab1 p:first-child{margin-top:0}
+#interactiveVideoIdeviceFormTab1{overflow:auto}
+#interactiveVideoIdeviceFormTab1 .ci18n{width:50%;float:left}
+@media screen and (max-width:720px) {
+	#interactiveVideoIdeviceFormTab1 .ci18n{width:100%;float:none}	
+}
+#interactiveVideoIdeviceFormTab1 label{display:block;font-weight:bold;margin-bottom:5px}
+#interactiveVideoIdeviceFormTab1 input{width:300px}
